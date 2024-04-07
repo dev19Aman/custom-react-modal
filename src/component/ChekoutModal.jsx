@@ -58,7 +58,7 @@ export default function CheckoutModal() {
             <p className="text-[1.6rem] leading-8 text-black font-bold mt-10">
               Earn 5 points per $ on every order with our digital card
             </p>
-            <p className="flex justify-between text-black font-semibold items-center text-sm px-6 bg-[#f5f4f3] h-10 rounded-md mt-10">
+            <p className="flex justify-between text-black font-semibold items-center text-sm px-6 bg-[#f5f4f3] h-10 rounded-md mt-7">
               <span>IIR Pay Total</span>
               <span>$183.86</span>
             </p>
