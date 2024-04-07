@@ -1,0 +1,46 @@
+.sun-loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fadb5f;
+    position: relative;
+    animation: sun-spin 2s linear infinite;
+  }
+  
+  .sun-loader:before, .sun-loader:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fadb5f;
+  }
+  
+  .sun-loader:before {
+    animation: sun-glow 2s linear infinite;
+  }
+  
+  .sun-loader:after {
+    animation: sun-glow 2s linear infinite reverse;
+  }
+  
+  @keyframes sun-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes sun-glow {
+    0%, 100% {
+      box-shadow: 0 0 20px #fadb5f;
+    }
+    50% {
+      box-shadow: 0 0 50px #fadb5f;
+    }
+  }
+  
