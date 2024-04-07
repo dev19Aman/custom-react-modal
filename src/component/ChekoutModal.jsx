@@ -36,7 +36,7 @@ export default function CheckoutModal() {
 
   return (
     <main className="App">
-      <div className="h-full flex justify-center align-middle">
+      <div className="h-full flex justify-center align-middle mt-10">
       <button className="btn btn-danger" onClick={handleOpen}>
         Open
       </button>
