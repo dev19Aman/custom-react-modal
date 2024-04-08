@@ -45,7 +45,7 @@ export default function CredentialModal({ open, onClose }) {
           LockSecured and powered by {" "}<img src={LogoImage} className='h-3' />
 </div>
           <section className="text-black px-3">
-            <p className="text-[1.6rem] leading-8 text-black font-bold mt-10 text-left">
+            <p className="text-[1.5rem]  sm:text-[1.6rem] leading-8 text-black font-bold  mt-8 text-left">
               Your phone number is your digital card
             </p>
             <p className="mt-6 text-left text-base font-medium w-[90%]">We use your phone number to securely identify you only when you log in and pay.</p>
@@ -70,14 +70,14 @@ export default function CredentialModal({ open, onClose }) {
         
         <div className="mt-6 text-[1rem] text-start border border-gray-500 rounded-lg">
             {/* List of images and text */}
-            <ul className='pl-3 mt-5 font-medium'>
+            <ul className='pl-1 sm:pl-3 mt-5 font-medium text-[15px] sm:text-base'>
 
-            <li className="flex items-center space-x-3">
+            <li className="flex items-center space-x-1 sm:space-x-3">
               <IoFlash className="w-5 h-5" />
               <p>Get a decision with no hard credit pull
 </p>
             </li>
-            <li className="flex items-center space-x-3 mt-4">
+            <li className="flex items-center space-x-1 sm:space-x-3 mt-4">
               <PiCursorClickFill  className="w-5 h-5" />
               <p>Connect your bank for secure repayment
 </p>

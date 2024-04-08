@@ -29,7 +29,7 @@ export default function CreditModal({ open, onClose }) {
 
     <Modal open={open} onClose={onClose}>
     <div className="sm:w-[24rem] h-[80vh] pt-4  text-center overflow-x-scroll scrollbar-hidden ">
-      <div className="px-5">
+      <div className=" px-2 sm:px-5">
       <div className="mx-auto ">
         <div className="relative">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-x absolute w-6  cursor-pointer" onClick={onClose}>
@@ -40,56 +40,56 @@ export default function CreditModal({ open, onClose }) {
         </div>
       </div> 
       <section className="text-black">
-        <p className="text-[1.6rem] leading-8 text-black font-bold mt-10">
+        <p className="text-[1.4rem] sm:text-[1.6rem] leading-8 text-black font-bold mt-10">
         A digital credit or debit card with best-in-class rewards
 
         </p>
-        <ul className="mt-6 text-[1rem] text-start  font-medium">
+        <ul className="mt-6  text-[0.85] sm:text-[1rem] text-start  font-medium">
             {/* List of images and text */}
-            <li className="flex items-start space-x-3">
+            <li className="flex items-start space-x-1 sm:space-x-3">
               <FaHandHoldingUsd className="w-5 h-5" />
               <p>Earn 5 points per $ on every order</p>
             </li>
-            <li className="flex items-start space-x-3 mt-4">
+            <li className="flex items-start space-x-1 sm:space-x-3 mt-4">
               <IoLockClosedSharp className="w-5 h-5" />
               <p>Connect your bank for secure repayment
 </p>
             </li>
-            <li className="flex items-start space-x-3 mt-4">
+            <li className="flex items-start space-x-1 sm:space-x-3 mt-4">
               <FaUnlockKeyhole  className="w-5 h-5" />
               <p>Support Import Image Racing
 
 </p>
             </li>
-            <li className="flex items-start space-x-3 mt-4">
+            <li className="flex items-start space-x-1 sm:space-x-3 mt-4">
               <IoFlash  className="w-5 h-5" />
               <p>Get a decision with no hard credit pull
 </p>
             </li>
           </ul>
          {/* Two boxes */}
-         <div className="flex gap-5 mt-6 text-black w-full">
+         <div className="flex gap-2 sm:gap-5 mt-6 text-black w-full">
   {/* Box 1 */}
-  <div className="border border-black rounded-lg flex flex-col justify-between w-1/2 cursor-pointer" onClick={handleCredentialModalOpen}>
+  <div className={boxCss} onClick={handleCredentialModalOpen}>
     <div className="p-4">
       <div className="flex items-center space-x-2">
         <FaCreditCard className="w-5 h-5 text-green-500" />
         <h3 className="text-lg font-semibold">Credit</h3>
       </div>
-      <p className="text-[1.1rem] text-start mt-2">Pay over time. Credit lines up to $5,000, subject to approval.</p>
+      <p className="text-base sm:text-[1.1rem] text-start mt-2">Pay over time. Credit lines up to $5,000, subject to approval.</p>
     </div>
     <button className="mt-4 bg-black rounded-b-lg font-bold text-white py-2 text-sm">Apply Now</button>
   </div>
 
   {/* Box 2 */}
-  <div className="border border-black rounded-lg flex flex-col justify-between w-1/2 cursor-pointer"
+  <div className={boxCss}
   onClick={handleCredentialModalOpen}>
     <div className="p-4">
       <div className="flex items-center space-x-2">
         <RiHomeSmile2Fill fontSize={22} className=" text-yellow-500" />
         <h3 className="text-lg font-semibold">Debit </h3>
       </div>
-      <p className="text-base text-start mt-2">Connect your bank and pay all at once up to $10,000.</p>
+      <p className="text-base sm:text-[1.1rem] mt-2">Connect your bank and pay all at once up to $10,000.</p>
     </div>
     <button className="mt-4 bg-black rounded-b-lg font-bold text-white py-2 text-sm">Sign Up</button>
   </div>
@@ -98,7 +98,7 @@ export default function CreditModal({ open, onClose }) {
 
       </div>  
 
-<div className="flex items-center justify-center py-3 space-x-3 mt-4" style={{backgroundImage: 'linear-gradient(to right, #d6e4e2, #ffceb2)'}}>
+<div className="flex items-center justify-center py-3 space-x-3 mt-4 rounded-b-xl" style={{backgroundImage: 'linear-gradient(to right, #d6e4e2, #ffceb2)'}}>
   <IoFlash className="w-5 h-5" />
   <p><span className="font-semibold">$80</span> on your first order of <span className="font-semibold">$800 </span> or more</p>
 </div>
@@ -112,3 +112,5 @@ export default function CreditModal({ open, onClose }) {
 
   );
 }
+
+const boxCss =" border border-black text-left rounded-lg flex flex-col justify-between w-1/2 cursor-pointer"
