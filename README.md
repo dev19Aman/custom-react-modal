@@ -1,6 +1,6 @@
-# Next.js Project
+# React.js Project
 
-This is a Next.js project bootstrapped with `create-next-app`.
+This is a React.js project bootstrapped with `create-react-app`.
 
 ## Getting Started
 
@@ -16,15 +16,15 @@ Open http://localhost:3000 with your browser to see the result.
 
 You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-This project uses next/font to automatically optimize and load Inter, a custom Google Font.
+This project uses react/font to automatically optimize and load Inter, a custom Google Font.
 
 Learn More
-To learn more about Next.js, take a look at the following resources:
+To learn more about React.js, take a look at the following resources:
 
-Next.js Documentation - Learn about Next.js features and API.
-Learn Next.js - An interactive Next.js tutorial.
-Next.js GitHub Repository - Your feedback and contributions are welcome!
+React.js Documentation - Learn about React.js features and API.
+Learn React.js - An interactive React.js tutorial.
+React.js GitHub Repository - Your feedback and contributions are welcome!
 Deploy on Vercel
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
+The easiest way to deploy your React.js app is to use the Vercel Platform from the creators of React.js.
 
-Check out the Next.js Deployment Documentation for more details.
+Check out the React.js Deployment Documentation for more details.
