@@ -26,7 +26,7 @@ To learn more about React.js, take a look at the following resources:
 React.js Documentation - Learn about React.js features and API.
 Learn React.js - An interactive React.js tutorial.
 React.js GitHub Repository - Your feedback and contributions are welcome!
-Deploy on Vercel
+# Deploy on Vercel
 The easiest way to deploy your React.js app is to use the Vercel Platform from the creators of React.js.
 
 Check out the React.js Deployment Documentation for more details.
