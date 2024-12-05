@@ -20,7 +20,7 @@ You can start editing the page by modifying app/page.tsx. The page auto-updates 
 
 This project uses react/font to automatically optimize and load Inter, a custom Google Font.
 
-Learn More
+# Learn More
 To learn more about React.js, take a look at the following resources:
 
 React.js Documentation - Learn about React.js features and API.
